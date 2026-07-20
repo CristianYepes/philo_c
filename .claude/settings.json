@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "philosophers-tools": {
+      "command": "node",
+      "args": ["/home/cristian/Desktop/philo_c/.mcp/build/index.js"]
+    }
+  }
+}
