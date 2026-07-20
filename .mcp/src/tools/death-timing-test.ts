@@ -1,7 +1,6 @@
 import { parseOutput } from "../helpers/parse.js";
 import { compileProject, runBinary } from "../helpers/compile.js";
-
-const PROJECT_DIR = "/home/cristian/Desktop/philo_c";
+import { PROJECT_DIR } from "../helpers/project-dir.js";
 
 interface Scenario {
   args: number[];

@@ -1,7 +1,6 @@
 import { parseOutput, computeStats } from "../helpers/parse.js";
 import { compileProject, runBinary } from "../helpers/compile.js";
-
-const PROJECT_DIR = "/home/cristian/Desktop/philo_c";
+import { PROJECT_DIR } from "../helpers/project-dir.js";
 
 export interface StarvationInput {
   num_philos: number;

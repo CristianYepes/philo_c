@@ -1,8 +1,7 @@
 import { execSync } from "child_process";
 import { parseOutput, computeStats, PhiloAction } from "../helpers/parse.js";
 import { compileProject, runBinary } from "../helpers/compile.js";
-
-const PROJECT_DIR = "/home/cristian/Desktop/philo_c";
+import { PROJECT_DIR } from "../helpers/project-dir.js";
 
 export interface TimingValidatorInput {
   num_philos: number;

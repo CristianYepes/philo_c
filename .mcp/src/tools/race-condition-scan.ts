@@ -1,7 +1,6 @@
 import { execSync } from "child_process";
 import { compileWithFlags, runBinaryWithStderr } from "../helpers/compile.js";
-
-const PROJECT_DIR = "/home/cristian/Desktop/philo_c";
+import { PROJECT_DIR } from "../helpers/project-dir.js";
 
 export interface RaceScanInput {
   num_philos?: number;
